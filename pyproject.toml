@@ -5,18 +5,18 @@ description = "A code that can make your discord account 24/7!"
 authors = ["SealedSaucer"]
 
 [tool.poetry.dependencies]
-python = ">=3.10.0,<3.11.8"
+python = ">=3.10.0,<3.12.2"
 numpy = "^1.22.2"
 Flask = "^2.2.0"
 urllib3 = "^1.26.12"
 websocket = "^0.2.1"
 websocket-client = "1.5.0"
 requests = "2.31.0"
-python-lsp-server = "1.5.9"
+python-lsp-server = "1.9.0"
 
 [tool.poetry.dev-dependencies]
 debugpy = "^1.6.2"
-python-lsp-server = {extras = ["yapf", "rope", "pyflakes"], version = "^1.5.9"}
+python-lsp-server = {extras = ["yapf", "rope", "pyflakes"], version = "^1.9.0"}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
