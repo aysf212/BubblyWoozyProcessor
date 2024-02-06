@@ -12,7 +12,7 @@ urllib3 = "^1.26.12"
 websocket = "^0.2.1"
 websocket-client = "1.5.0"
 requests = "2.31.0"
-python-lsp-server = "1.9.0"
+python-lsp-server = "1.5.9"
 
 [tool.poetry.dev-dependencies]
 debugpy = "^1.6.2"
