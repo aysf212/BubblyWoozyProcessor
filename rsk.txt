@@ -1,4 +1,6 @@
 requests
-websocket
 websocket-client
 Flask
+urllib3
+python-lsp-server
+numpy
